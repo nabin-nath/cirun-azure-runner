@@ -1,0 +1,14 @@
+runners:
+  - name: azure-cpu-runner
+    cloud: azure
+    instance_type: Standard_DS1_v2
+    machine_image:
+      publisher: Canonical
+      offer: UbuntuServer
+      sku: 18.04-LTS
+      version: latest
+    preemptible: false
+    workflow: .github/workflows/azure-cpu.yml
+    count: 1
+    labels:
+      - azure-cpu
