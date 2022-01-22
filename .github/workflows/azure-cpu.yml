@@ -5,7 +5,7 @@ on: [push]
 jobs:
   build:
 
-    runs-on: [self-hosted, azure-cpu]
+    runs-on: [ubuntu-latest, azure-cpu]
     steps:
     - uses: actions/checkout@v2
 
