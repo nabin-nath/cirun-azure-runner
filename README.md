@@ -3,3 +3,4 @@ Self hosted github actions on azure
 
 ## Testing
 - 01
+- 02
